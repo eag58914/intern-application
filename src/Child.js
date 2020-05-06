@@ -1,5 +1,8 @@
+import React from 'react';
+import './Child.css';
+
 function Child() {
-  return null
+	return <div>text</div>;
 }
 
-export default Child
+export default Child;
