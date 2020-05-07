@@ -13,7 +13,7 @@ function Child(props) {
 
 	return (
 		<div className="container">
-			<p style={{ color: props.color }}>text</p>
+			<p className="circle" style={{ backgroundColor: props.color }} />
 			<button onClick={() => props.setColor(getRandomColor)}>Randomly change my color!</button>
 		</div>
 	);
