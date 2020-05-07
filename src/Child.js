@@ -13,8 +13,17 @@ function Child(props) {
 
 	return (
 		<div className="container">
-			<p className="circle" style={{ backgroundColor: props.color }} />
-			<button onClick={() => props.setColor(getRandomColor)}>Randomly change my color!</button>
+			<div className="circle" style={{ backgroundColor: props.color }} />
+			<button
+				className="randomColor"
+				onClick={() => {
+					props.setColor(getRandomColor);
+				}}
+			>
+				Randomly change my color!
+			</button>
+
+			<div>{props.blink ? 'I blinked!' : 'I can see!'}</div>
 		</div>
 	);
 }
