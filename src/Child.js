@@ -1,6 +1,7 @@
 import React from 'react';
 import './Child.css';
 
+//I call this the 'Art of Color Change and Simple Change'
 function Child(props) {
 	function getRandomColor() {
 		var letters = '0123456789ABCDEF';
@@ -14,6 +15,8 @@ function Child(props) {
 	return (
 		<div className="container">
 			<div className="circle" style={{ backgroundColor: props.color }} />
+			<div className="square" style={{ backgroundColor: props.color }} />
+			<div className="trapezoid" style={{ backgroundColor: props.color }} />
 			<button
 				className="randomColor"
 				onClick={() => {
