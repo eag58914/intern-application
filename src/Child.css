@@ -1,2 +1,10 @@
-div {
+.button {
+	visibility: hidden;
+}
+.container {
+	display: flexbox;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
