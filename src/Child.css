@@ -2,9 +2,16 @@
 	visibility: hidden;
 }
 .container {
-	display: flexbox;
-	margin-top: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 200px;
 	margin-right: auto;
 	margin-left: auto;
-	text-align: center;
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
 }
