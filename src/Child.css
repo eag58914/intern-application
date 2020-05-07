@@ -6,7 +6,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 200px;
+	margin-top: 150px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -14,6 +14,19 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
+}
+.square {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.trapezoid {
+	width: 150px;
+	height: 100px;
+	margin-top: 10px;
+	transform: skew(20deg);
+	margin-bottom: 10px;
 }
 .randomColor {
 	background-color: #008cba;
